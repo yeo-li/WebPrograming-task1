@@ -2,36 +2,91 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             a {
                 text-decoration: none;
             }
         </style>
-        <title>TAG해조(6조) 팀 소개</title>
+        <title>웹프로그래밍 6조 (Tag해조) 팀소개</title>
+
+        <!--USE bootstrap4-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <a href="index.html"><h1 style="border: 4px solid rgb(0, 0, 0);background-color: rgb(213, 214, 162);"><img src="https://w.namu.la/s/90b3132a0a6406eaf98a49e5d7bf9ef7f7c689036f892663e4c22de357550b7789a027e7dfb76ccf853857f6ec8fba152d756ba50388c886d35fb69e0740d22e575ad71047c590b6bb4c025ea487187e" 
-                alt="Sejong.Univ" width="40" height="30";>TAG해조(6팀) - 웹프로그래밍(003)</h1></a><hr>
-            <!--개인소개-->
-            
+                alt="Sejong.Univ" width="40" height="30";>웹프로그래밍 6조 (Tag해조) 팀소개</h1></a><hr>
         </header>
-            <h1>home page에 사진 두 장 넣고 각자 한 장씩 넣을까요?</h1>
-            <h2>아님 개인 페이지에 각자 두 장씩 넣을까요?</h2>
-            <h2 style="color: rgb(213, 214, 162);background-color: rgb(75, 70, 70);">팀명</h2>
-            <h1>TAG해조</h1>
-            <h2 style="color: rgb(213, 214, 162);background-color: rgb(75, 70, 70);">팀명 선정 이유</h2>
-            <h2>연결시켜주는 의미를 담아~</h2>
-        
-            <h2 style="color: rgb(213, 214, 162);background-color: rgb(75, 70, 70);">팀원소개</h2>
-            <h3>
-                <ul>
-                    <a href="page1.html#Park"><li>박성열</li></a>
-                    <a href="page1.html#Yang"><li>양석현 형님</li></a>
-                </ul>
-            </h3>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><strong>About Team</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link active" aria-current="page" href ="#chap1">팀명 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href ="#chap3">팀명 선정 이유 <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link active" href ="#chap4">YOUTUBE 유튜브 소개영상<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link active" href ="page1.html#Park">박성열 소개 <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link active" href ="page1.html#Yang">양석현 소개 <span class="sr-only">(current)</span></a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
 
+        <hr>
+        <article>
+            <h2 id = "chap1" style="color: rgb(213, 214, 162);background-color: rgb(75, 70, 70);">팀명</h2>
+            <h1 style="font-size: 7vw;">TAG해조</h1>
+        </article>
+        <article>
             
+            <h2 style="color: rgb(213, 214, 162);background-color: rgb(75, 70, 70);" id ="chap3">팀명 선정 이유</h2>
+            <p style = "font-size : larger" id="chap2">저희 팀명이 <b style="font-size: 2vw;">"TAG해조"</b>로 지은 이유는 HTML에서 Tag라는 기능을 공부를 하며 많이 사용을 하고있기도 하고, <br>
+                Tag라는 단어가 HTML에서의 의미도 있지만 사전적의미로 '꼬리표를 붙이다'는 의미와<br>
+                SNS에서 사람과 사람을 <b>Tag</b>한다는 의미가 와닿았습니다.<br>
+                저희 팀은 팀원끼리 서로서로 태그하면서 서로를 도우며 협력을 잘하자는 의미로<br>
+                태그해줘 라는 뜻으로 <b style="font-size: 2vw;">"TAG해조"</b>로 지었습니다.</p>
+        </article>
+        <article>
+            <h2 style="color: rgb(213, 214, 162);background-color: rgb(75, 70, 70);" id="chap4">YOUTUBE 유튜브 소개영상</h2>
+      
+               <!--카드, 버튼 템플릿, 열 정렬-->
+                 <div class = "row">
+                   <div class="col-sm-6">
+                    <div class="card;" >
+                      <iframe width="100%" src="https://www.youtube.com/embed/HAxiiPklw4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">
+                          <p class="card-text">양석현의 유튜브 소개영상</p>
+                          <a href="https://www.youtube.com/embed/HAxiiPklw4U" class="btn btn-primary">Go Youtube</a>
+                         </div>
+                       </div>
+                      </div>
+                    <div class = "col-sm-6">
+                     <div class="card;">
+                        <iframe width="100%" src="https://www.youtube.com/embed/hZ7mHb5p2mY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="card-body">
+                            <p class="card-text">박성열의 유튜브 소개영상</p>
+                            <a href="https://www.youtube.com/embed/hZ7mHb5p2mY" class="btn btn-primary">Go Youtube</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+        </article> 
     </body>
-    
 </html>
